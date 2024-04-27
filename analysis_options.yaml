@@ -1,0 +1,23 @@
+include: package:lint/analysis_options.yaml
+
+analyzer:
+  errors:
+    missing_return: error
+    must_be_immutable: warning
+    must_call_super: error
+    invalid_use_of_protected_member: error
+    parameter_assignments: error
+    sort_unnamed_constructors_first: ignore
+    sort_pub_dependencies: ignore
+    always_use_package_imports: ignore
+    invalid_annotation_target: ignore
+    type_annotate_public_apis: false
+
+
+  exclude:
+    - "**/*.g.dart"
+    - "**/generated/*" # Add the file to ignore here
+
+
+  # plugins:
+  #   - custom_lint

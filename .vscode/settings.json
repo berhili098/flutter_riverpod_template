@@ -1,0 +1,84 @@
+{
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": false,
+      "**/CVS": false,
+      "**/.DS_Store": false,
+      "**/Thumbs.db": false,
+      "**/*.freezed.dart": true,
+      "**/*.g.dart": true,
+      "**/.gitkeep": true
+    },
+    "todo-tree.general.tags": [
+      "BUG",
+      "HACK",
+      "FIXME",
+      "TODO",
+      "XXX",
+      "[ ]",
+      "[x]"
+    ],
+    "material-icon-theme.folders.associations": {
+      "global_state": "global",
+      "ui": "layout",
+      "presentation": "layout",
+      "widgets": "components",
+      "bloc": "ngrx-store",
+      "application": "ngrx-store",
+      "state": "ngrx-store",
+      "infrastructure": "database",
+      "infra": "database",
+      "fixtures": "config",
+      "domain": "rules",
+      "device": "client",
+      "entities": "class",
+      "features": "other",
+      "fp": "functions",
+      "routing": "routes",
+      "injection": "custom",
+      "l10n": "i18n"
+    },
+  
+    "explorerExclude.backup": {},
+    "cmake.configureOnOpen": true,
+    "cSpell.words": [
+      "barcodes",
+      "kanban",
+      "Mujahid",
+      "Rachid",
+      "riverpod",
+      "sooooo",
+      "transportapp",
+      "Youssef"
+    ],
+    
+      "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit"
+      },
+      "debug.openDebug": "openOnDebugBreak", 
+   "debug.internalConsoleOptions": "openOnSessionStart",
+  
+   "[dart]": { 
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit",
+      "source.sortMembers": "explicit"
+    },
+  "editor.formatOnSave": true,
+    "editor.formatOnType": true, 
+    "editor.rulers": [80], 
+    "editor.selectionHighlight": false, 
+    "editor.suggest.snippetsPreventQuickSuggestions": false, 
+    "editor.suggestSelection": "first", 
+    "editor.tabCompletion": "onlySnippets",  
+   },
+   "launch": {
+    
+    "configurations": [],
+    "compounds": []
+   }
+  
+  
+  }
+  
