@@ -9,12 +9,12 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Home Page'),
+        title: Text('Home Page', style: Theme.of(context).textTheme.headlineSmall!.copyWith(color: Colors.white)),
       ),
-      body: const Center(
+      body: Center(
         child: Text(
           'Welcome to the Home Page',
-          style: TextStyle(fontSize: 24),
+          style: Theme.of(context).textTheme.titleLarge,
         ),
       ),
     );
